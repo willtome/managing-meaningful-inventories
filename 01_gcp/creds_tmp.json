@@ -1,0 +1,7 @@
+{
+  "client_email": "<removed>",
+  "private_key": "-----BEGIN PRIVATE KEY-----\n<removed>\n-----END PRIVATE KEY-----",
+  "project_id": "<removed>",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "type": "service_account"
+}

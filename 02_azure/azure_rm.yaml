@@ -1,0 +1,2 @@
+plugin: azure_rm
+auth_source: env

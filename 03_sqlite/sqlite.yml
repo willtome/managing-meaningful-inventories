@@ -1,0 +1,4 @@
+---
+plugin: sqlite
+db_path: hosts.db
+db_table: hosts
