@@ -1,0 +1,5 @@
+# exclude this so people can put in secret data
+02_azure/set_env.sh
+01_gcp/creds.json
+
+__pycache__/
