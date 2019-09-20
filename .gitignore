@@ -3,6 +3,6 @@
 01_gcp/creds.json
 
 # sqlite
-03_sqlite/hosts.db
+hosts.db
 
 __pycache__/
