@@ -3,8 +3,12 @@
 01_gcp/creds.json
 private.gcp_compute.yml
 private.azure_rm.yml
+private.aws_ec2.yml
 
 # sqlite
 hosts.db
 
 __pycache__/
+
+# Galaxy collection builds
+*.tar.gz

@@ -1,0 +1,17 @@
+plugin: aws_ec2
+keyed_groups:
+ - key: placement.availability_zone
+   parent_group: zones
+   prefix: ''
+   separator: ''
+ - key: placement.region
+   parent_group: regions
+   prefix: ''
+   separator: ''
+ - key: placement.availability_zone
+   separator: ''
+   parent_group: '{{placement.region}}'
+
+# # you can set up your account here
+# aws_access_key_id: <insert>
+# aws_secret_access_key: <insert>

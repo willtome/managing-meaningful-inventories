@@ -1,0 +1,16 @@
+authors:
+- Alan Rominger (@AlanCoding)
+- Will Tome (@willtome)
+dependencies: {}
+description: Basic inventory plugin used in AnsibleFest demo.
+documentation: https://galaxy.ansible.com/alancoding/basic
+homepage: https://github.com/willtome/managing-meaningful-inventories
+issues: https://github.com/willtome/managing-meaningful-inventories/issues
+license:
+- GPL-3.0-only
+name: basic
+namespace: alancoding
+readme: README.md
+repository: https://github.com/willtome/managing-meaningful-inventories
+tags: []
+version: 0.0.2

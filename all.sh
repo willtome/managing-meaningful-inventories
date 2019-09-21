@@ -15,3 +15,9 @@ SQLITE_DATABASE_PATH=hosts.db SQLITE_DATABASE_TABLE=hosts ansible-inventory -i 0
 echo "Basic example"
 # got fancy with the bash script here
 ./05_basic/run.sh
+echo "AWS options example"
+echo "  will not print output (too big), but count lines in output"
+ansible-inventory -i 07_aws_options/private.aws_ec2.yml --list --export | wc -l
+echo "AWS keyed example"
+echo "  will not print output (too big), but count lines in output"
+ansible-inventory -i 08_keyed/private.aws_ec2.yml --list --export | wc -l
