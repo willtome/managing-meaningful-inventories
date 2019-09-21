@@ -1,0 +1,5 @@
+plugin: gcp_compute
+projects:
+- ansible-fest-engineering
+auth_kind: serviceaccount
+service_account_file: 01_gcp/creds.json  # to allow running things from repo root
