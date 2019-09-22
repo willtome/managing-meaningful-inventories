@@ -1,4 +1,6 @@
 #!/bin/bash
+echo "Static inventory example"
+ansible-inventory -i 00_static/hosts --list --export
 ./sqlite_setup.sh
 export ANSIBLE_NOCOWS=1
 echo "GCP Compute inventory plugin scenario"

@@ -1,0 +1,24 @@
+[atl]
+10.172.0.33
+10.172.4.13
+
+[sac]
+web1.ansible.com
+db2.ansible.com
+
+[aus]
+web3 ansible_host=192.168.1.32
+db4 ansible_host=192.168.2.65
+
+[usa:children]
+atl
+sac
+aus
+
+[prod]
+web1.ansible.com
+db2.ansible.com
+
+[web]
+web1.ansible.com
+web3
