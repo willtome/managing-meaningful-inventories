@@ -1,5 +1,6 @@
 # exclude this so people can put in secret data
 02_azure/set_env.sh
+02_azure/set_private_env.sh
 01_gcp/creds.json
 private.gcp_compute.yml
 private.azure_rm.yml
