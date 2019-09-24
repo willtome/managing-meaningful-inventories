@@ -24,3 +24,7 @@ https://github.com/AlanCoding/scm-inventory-paths
 Detailed example files for how AWX recreates script inventory data
 
 https://github.com/ansible/awx/tree/devel/awx/main/tests/data/inventory/plugins
+
+How to add constructed functionality to an existing inventory plugin.
+
+https://github.com/ansible/ansible/pull/62542/files
