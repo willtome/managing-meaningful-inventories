@@ -49,7 +49,7 @@ def _hash_password(password):
 
 class InventoryModule(BaseInventoryPlugin):
 
-    NAME = 'basic'
+    NAME = 'alancoding.basic.basic'
 
     def parse(self, inventory, loader, path, cache=True):  # Plugin interface (2)
         super(InventoryModule, self).parse(inventory, loader, path)
