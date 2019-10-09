@@ -33,6 +33,7 @@ count: 4
 # Ansible internal request utilities
 from ansible.module_utils.six.moves.urllib.parse import urljoin
 from ansible.module_utils.urls import Request, ConnectionError, urllib_error
+from ansible.module_utils.six import PY2
 
 from ansible.errors import AnsibleParserError
 from ansible.plugins.inventory import BaseInventoryPlugin
@@ -44,7 +45,10 @@ import json
 
 
 def _hash_password(password):
-    return str(b64encode(bytes(password, encoding='utf8')), encoding='utf8')
+    if PY2:
+        return unicode(b64encode(password), encoding='utf8')
+    else:
+        return str(b64encode(bytes(password, encoding='utf8')), encoding='utf8')
 
 
 class InventoryModule(BaseInventoryPlugin):
