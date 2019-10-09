@@ -13,4 +13,4 @@ namespace: alancoding
 readme: README.md
 repository: https://github.com/willtome/managing-meaningful-inventories
 tags: []
-version: 0.0.2
+version: 0.0.4

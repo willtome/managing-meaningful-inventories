@@ -4,7 +4,7 @@ DOCUMENTATION = r'''
     author:
       - Alan Rominger (@AlanCoding)
       - Will Tome (@willtome)
-    short_description: Creates a number of hosts based on the input “count”.
+    short_description: Creates a number of hosts based on the input "count".
     version_added: "2.10"
     description:
         - Demonstrates basics of a custom inventory plugin.
